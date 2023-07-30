@@ -1,0 +1,185 @@
+:root {
+  --accent-color: #404bbf;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/*=========page header=====*/
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: extrabold;
+  line-height: 1.17;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 3%;
+  color: 2e2F42;
+}
+.logo-color {
+  color: #4d5ae5;
+}
+.menu-link {
+  font-size: 16px;
+  color: #2e2f42;
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+.contact-link {
+  color: #434455;
+  font-size: 16;
+  font-style: normal;
+}
+/*==========/page header======*/
+/*===========hero screen============*/
+.headline {
+  background-color: #2e2f42;
+}
+.headline-main {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  color: #fff;
+}
+.headline-button {
+  padding: 16px 32px;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 4%;
+  color: #fff;
+}
+/*=======/hero screen=======*/
+/*=========benefits==========*/
+.benefits {
+  background-color: #fff;
+}
+.benefit-headline {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #2e2f42;
+}
+.benefit-description {
+  font-size: 16px;
+  color: #434455;
+}
+/*=========/benefits=========*/
+/*===========works===========*/
+.works {
+  background-color: #fff;
+}
+.works-headline {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  color: #2e2f42;
+}
+/*=========/works==========*/
+/*==========team===========*/
+.team {
+  background-color: #f4f4fd;
+}
+.team-member {
+  border-radius: 0px 0px 4px 4px;
+  background: var(--white, #fff);
+}
+.team-headline {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  color: #2e2f42;
+}
+.team-member-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #2e2f42;
+}
+.team-member-title {
+  font-size: 16px;
+  font-weight: 400;
+  color: #434455;
+}
+/*=========/team=======*/
+/*==========footer=======*/
+.footer {
+  background-color: #2e2f42;
+}
+.logo-color-f {
+  color: #f4f4fd;
+}
+.footer-description {
+  color: #f4f4fd;
+  font-size: 16px;
+}
+/*========/footer=======*/
+/*=========portfolio=====*/
+.portfolio-main {
+  background-color: #fff;
+}
+.filter-btn {
+  padding: 12px 24px;
+  background-color: #f4f4fd;
+  color: #4d5ae5;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 4%;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: #404bbf;
+  color: #fff;
+}
+/*===========proposition=======*/
+.proposition-headline {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #2e2f42;
+}
+.proposition-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #434455;
+}
