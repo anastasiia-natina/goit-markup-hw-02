@@ -1,5 +1,5 @@
 :root {
-  --accent-color: #404bbf;
+  --accent-color: #4d5ae5;
   --background-color: #ffffff;
   --color-text: #2e2f42;
 }
@@ -19,18 +19,6 @@ body {
   cursor: pointer;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
 /*=========page header=====*/
 .logo {
   font-family: Raleway, sans-serif;
@@ -38,7 +26,7 @@ body {
   line-height: 1.17;
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 .logo-color {
@@ -48,17 +36,17 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.03em;
   color: var(--color-text);
 }
 .menu-link:hover,
 .menu-link:focus {
-  color: var(--accent-color);
+  color: #404bbf;
 }
 .contact-link {
   font-style: normal;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   font-size: 16;
   color: #434455;
 }
@@ -72,7 +60,7 @@ body {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #fff;
 }
 .headline-button {
@@ -81,7 +69,7 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   color: #fff;
 }
 .headline-button:hover,
@@ -96,15 +84,15 @@ body {
 .benefit-headline {
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.4;
-  letter-spacing: 2%;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--color-text);
 }
 .benefit-description {
   font-size: 16px;
   color: #434455;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 /*=========/benefits=========*/
 /*===========works===========*/
@@ -117,7 +105,7 @@ body {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: var(--color-text);
 }
 /*=========/works==========*/
@@ -133,15 +121,15 @@ body {
   text-transform: capitalize;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 2%;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--color-text);
 }
 .team-member-name {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.4;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: var(--color-text);
 }
 .team-member-title {
@@ -149,7 +137,7 @@ body {
   font-weight: 400;
   color: #434455;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 /*=========/team=======*/
 /*==========footer=======*/
@@ -163,7 +151,7 @@ body {
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 /*=======/footer=======*/
 /*=========portfolio=====*/
@@ -176,7 +164,7 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
 }
 .filter-btn:hover,
 .filter-btn:focus {
@@ -188,12 +176,12 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.4;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: var(--color-text);
 }
 .proposition-description {
   font-size: 16px;
   color: #434455;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
