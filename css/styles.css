@@ -36,19 +36,25 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   color: var(--color-text);
 }
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
 }
-.contact-link {
+.contacts {
   font-style: normal;
+}
+.contact-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-size: 16;
   color: #434455;
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
 }
 /*==========/page header======*/
 /*===========hero screen============*/
@@ -121,14 +127,14 @@ body {
   text-transform: capitalize;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--color-text);
 }
 .team-member-name {
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.4;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-text);
 }
@@ -161,6 +167,7 @@ body {
 .filter-btn {
   background-color: #f4f4fd;
   color: #4d5ae5;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -168,7 +175,7 @@ body {
 }
 .filter-btn:hover,
 .filter-btn:focus {
-  background-color: var(--accent-color);
+  background-color: #404bbf;
   color: #fff;
 }
 /*===========proposition=======*/
